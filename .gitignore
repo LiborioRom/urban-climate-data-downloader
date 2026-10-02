@@ -1,0 +1,39 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Downloaded/generated data
+runs/
+data_downloads/
+artifacts/
+cache/
+results/
+outputs/
+mapa_roi.html
+
+# Models and temporary files
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.tmp
+*.log
+
+# Editors
+.vscode/
+.idea/
+
